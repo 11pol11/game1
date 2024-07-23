@@ -101,7 +101,6 @@ int main()
         platform.move( platform.getSpeed(),0);
         //move all the bullets and check for collision
         for(Bullet & bullet:bullets){
-
             bullet.move(bullet.getSpeed());
             int pointstoadd=platform.isColliding(bullet);
          if (pointstoadd){
