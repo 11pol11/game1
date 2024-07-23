@@ -1,0 +1,14 @@
+"C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.2/bin/ninja/win/ninja.exe" -G Ninja C:\Users\Lenovo\CLionProjects\untitled22
+-- Found SFML but requested component 'REQUEIRED' is missing in the config defined in C:/SFML/lib/cmake/SFML.
+CMake Warning at CMakeLists.txt:11 (find_package):
+  Found package configuration file:
+
+    C:/SFML/lib/cmake/SFML/SFMLConfig.cmake
+
+  but it set SFML_FOUND to FALSE so package "SFML" is considered to be NOT
+  FOUND.
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Lenovo/CLionProjects/untitled22/cmake-build-debug
